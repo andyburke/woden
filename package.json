@@ -1,6 +1,6 @@
 {
   "name": "woden",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "A small, simple proxy server module with some nice controls for caching.",
   "main": "index.js",
   "scripts": {
@@ -20,18 +20,18 @@
   "author": "Andy Burke <aburke@bitflood.org>",
   "license": "MIT",
   "dependencies": {
-    "http-proxy": "^1.7.0",
-    "node.extend": "^1.1.3",
-    "sha1": "^1.1.0",
-    "sorted-object": "^1.0.0",
-    "tinycache": "^1.1.0"
+    "http-proxy": "^1.18.1",
+    "node.extend": "^2.0.2",
+    "sha1": "^1.1.1",
+    "sorted-object": "^2.0.1",
+    "tinycache": "^1.1.2"
   },
   "repository": {
     "type": "git",
     "url": "http://github.com/honeinc/woden"
   },
   "devDependencies": {
-    "jshint": "^2.9.1-rc1",
-    "tape": "^4.2.2"
+    "jshint": "^2.13.1",
+    "tape": "^5.3.1"
   }
 }

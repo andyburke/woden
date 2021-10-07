@@ -278,7 +278,7 @@ Woden.prototype._getSettings = function( url ) {
 Woden.prototype._onProxyStart = function( req ) {
     var parsed = urlParse( req._target, false, true );
     req.headers.host = parsed.host;
-}
+};
 
 /*
     Woden::_onProxyReq - Private handler of request pre proxy
